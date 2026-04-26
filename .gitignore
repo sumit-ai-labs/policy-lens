@@ -1,0 +1,30 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+backend/venv/
+.pytest_cache/
+
+# app data
+*.db
+*.log
+backend/cache.db
+backend/server_log.txt
+backend/test_log.txt
+
+# frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS/editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# temp
+*.tmp
