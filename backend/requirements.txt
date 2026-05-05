@@ -19,3 +19,4 @@ numpy
 PyMuPDF
 python-dotenv
 requests
+cachetools
