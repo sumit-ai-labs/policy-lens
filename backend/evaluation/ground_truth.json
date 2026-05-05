@@ -1,0 +1,111 @@
+[
+  {
+    "policy_id": "P1_ULIP_HIGH",
+    "text": "This is a unit linked insurance plan. The investment risk is borne by the policyholder. No withdrawals are allowed for the first 5 years.",
+    "risks": [
+      {"label": "investment risk", "severity": "HIGH"},
+      {"label": "liquidity restriction", "severity": "HIGH"}
+    ]
+  },
+  {
+    "policy_id": "P2_MOTOR_DEPRECIATION",
+    "text": "The insurer will deduct depreciation based on vehicle age. Claims are subject to multiple exclusions including wear and tear.",
+    "risks": [
+      {"label": "depreciation deduction", "severity": "HIGH"},
+      {"label": "exclusion conditions", "severity": "HIGH"}
+    ]
+  },
+  {
+    "policy_id": "P3_HEALTH_EXCLUSION",
+    "text": "Pre-existing diseases are not covered for 3 years. Room rent is capped and certain treatments are excluded.",
+    "risks": [
+      {"label": "pre-existing exclusion", "severity": "HIGH"},
+      {"label": "coverage limitation", "severity": "MEDIUM"}
+    ]
+  },
+  {
+    "policy_id": "P4_TRAVEL_LIMITED",
+    "text": "The policy excludes pandemics and limits baggage loss claims. Claims must be filed within 7 days.",
+    "risks": [
+      {"label": "coverage exclusion", "severity": "HIGH"},
+      {"label": "strict claim condition", "severity": "MEDIUM"}
+    ]
+  },
+  {
+    "policy_id": "P5_TERM_MEDIUM",
+    "text": "In case of suicide within 12 months, only premium paid will be returned. Claims require complete documentation.",
+    "risks": [
+      {"label": "suicide exclusion", "severity": "MEDIUM"},
+      {"label": "documentation condition", "severity": "MEDIUM"}
+    ]
+  },
+  {
+    "policy_id": "P6_HEALTH_BALANCED",
+    "text": "Coverage includes hospitalization with some exclusions. Waiting period of 1 year applies for certain illnesses.",
+    "risks": [
+      {"label": "waiting period", "severity": "MEDIUM"},
+      {"label": "partial exclusion", "severity": "MEDIUM"}
+    ]
+  },
+  {
+    "policy_id": "P7_MOTOR_STANDARD",
+    "text": "The policy covers damages with standard depreciation rules. Minor exclusions apply.",
+    "risks": [
+      {"label": "depreciation", "severity": "MEDIUM"}
+    ]
+  },
+  {
+    "policy_id": "P8_LIFE_AMBIGUOUS",
+    "text": "Benefits are subject to internal guidelines and interpretation by the insurer.",
+    "risks": [
+      {"label": "ambiguity", "severity": "HIGH"}
+    ]
+  },
+  {
+    "policy_id": "P9_HEALTH_LOW",
+    "text": "The policy covers most medical expenses with minimal exclusions and clear terms.",
+    "risks": [
+      {"label": "low risk coverage", "severity": "LOW"}
+    ]
+  },
+  {
+    "policy_id": "P10_TRAVEL_PREMIUM",
+    "text": "Comprehensive coverage with few exclusions and flexible claim process.",
+    "risks": [
+      {"label": "minimal risk", "severity": "LOW"}
+    ]
+  },
+  {
+    "policy_id": "P11_TERM_SIMPLE",
+    "text": "Provides fixed life cover with straightforward conditions and no major exclusions.",
+    "risks": [
+      {"label": "low complexity", "severity": "LOW"}
+    ]
+  },
+  {
+    "policy_id": "P12_AMBIGUOUS",
+    "text": "Claims may be approved subject to company discretion and undefined criteria.",
+    "risks": [
+      {"label": "ambiguity", "severity": "HIGH"}
+    ]
+  },
+  {
+    "policy_id": "P13_LONG_POLICY",
+    "text": "This policy contains multiple sections with varied exclusions, conditions, and financial clauses affecting claims.",
+    "risks": [
+      {"label": "multiple risks", "severity": "HIGH"}
+    ]
+  },
+  {
+    "policy_id": "P14_NO_RISK",
+    "text": "The policy provides full coverage with no major exclusions or restrictions.",
+    "risks": []
+  },
+  {
+    "policy_id": "P15_CONTRADICTION",
+    "text": "The policy states claims are covered but also mentions that claims may be denied under similar conditions.",
+    "risks": [
+      {"label": "contradiction", "severity": "HIGH"}
+    ]
+  }
+]

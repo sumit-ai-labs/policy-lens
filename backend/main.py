@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 
 import fitz
 from fastapi import FastAPI, File, HTTPException, UploadFile, Request
@@ -31,9 +32,19 @@ metrics = {
     "fallback_used": 0
 }
 
+origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+# When deploying, add FRONTEND_URL to your environment variables (e.g. in Render dashboard)
+frontend_url = os.getenv("FRONTEND_URL")
+if frontend_url:
+    origins.append(frontend_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
